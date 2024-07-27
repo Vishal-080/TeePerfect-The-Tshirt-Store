@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import {LOGO_URL} from "../Utils/constant";
 
 const Header = () => {
   return (
-    <div className='text-2xl'>Header</div>
+    <div className='w-11/12	mx-auto sticky border-grey-300 border-solid border'>
+    <img src={LOGO_URL} alt="logo" />
+    </div>
   )
 }
 

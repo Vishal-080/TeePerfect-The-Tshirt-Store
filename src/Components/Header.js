@@ -17,7 +17,9 @@ const Header = () => {
             </ul>
         </div>
         <div className='flex justify-between items-center'>
-                
+                <ul>
+                    <li></li>
+                </ul>
         </div>
     </div>
   )

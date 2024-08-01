@@ -4,6 +4,9 @@ import Login from './Login';
 import Register from "./Register";
 import Home from "./Home";
 import { RouterProvider } from 'react-router-dom';
+import Blog from './Blog';
+import Categories from './Categories';
+import Brand from './Brand';
 
 const Body = () => {
 
@@ -19,6 +22,18 @@ const Body = () => {
     {
       path: "/register",
       element: <Register/>
+    },
+    {
+      path: "/blog",
+      element: <Blog/>
+    },
+    {
+      path: "/categories",
+      element: <Categories/>
+    },
+    {
+      path: "/brand",
+      element: <Brand/>
     }
   ])
 

@@ -15,25 +15,35 @@ const Header = () => {
       </div>
       <div className="flex justify-between items-center w-4/12">
         <ul className="flex justify-between items-center w-full">
-          <li  className="mx-2 font-medium text-center text-md">HOME</li>
-          <li className="mx-2 font-medium text-center text-md">CATEGORIES</li>
-          <li className="mx-2 font-medium text-center text-md">PAGES</li>
-          <li className="mx-2 font-medium text-center text-md">BRAND</li>
-          <li className="mx-2 font-medium text-center text-md">BLOG</li>
+          <li className="mx-2 font-medium text-center text-md  cursor-pointer">
+            HOME
+          </li>
+          <li className="mx-2 font-medium text-center text-md cursor-pointer">
+            CATEGORIES
+          </li>
+          <li className="mx-2 font-medium text-center text-md cursor-pointer">
+            PAGES
+          </li>
+          <li className="mx-2 font-medium text-center text-md cursor-pointer">
+            BRAND
+          </li>
+          <li className="mx-2 font-medium text-center text-md cursor-pointer">
+            BLOG
+          </li>
         </ul>
       </div>
       <div className="flex justify-between items-center w-1/4">
         <ul className="flex justify-between items-center mx-2 px-4 w-full">
-          <li className="mx-2">
+          <li className="mx-2 cursor-pointer">
             <AiOutlineSearch />
           </li>
-          <li className="mx-2">
+          <li className="mx-2 cursor-pointer">
             <AiOutlineHeart />
           </li>
-          <li className="mx-2">
+          <li className="mx-2 cursor-pointer">
             <BsPersonCircle />
           </li>
-          <li className="mx-2">
+          <li className="mx-2 cursor-pointer">
             <AiOutlineShoppingCart />
           </li>
         </ul>

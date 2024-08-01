@@ -7,10 +7,10 @@ const NewArrivals = () => {
         <h2 className="text-[#3ba9e0]">View More</h2>
     </div>
     <div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div><img src="" alt="productImg"/></div>
+        <div><img src="" alt="productImg"/></div>
+        <div><img src="" alt="productImg"/></div>
+        <div><img src="" alt="productImg"/></div>
     </div>
   </div>;
 };

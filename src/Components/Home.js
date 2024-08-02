@@ -6,7 +6,7 @@ import NewArrivals from './NewArrivals';
 const Home = () => {
   return (
     <div>
-        <Header/>
+        {/* <Header/> */}
         <HeroPage/>
         <NewArrivals/>
         <div className="h-96 bg-slate-400 border border-dotted">

@@ -7,11 +7,6 @@ import {
 } from "react-icons/ai";
 import { BsPersonCircle } from "react-icons/bs";
 import {Link} from 'react-router-dom';
-import Home from "./Home";
-import Categories from "./Categories";
-import Pages from "./Pages";
-import Brand from "./Brand";
-import Blog from "./Blog";
 
 const Header = () => {
   return (
@@ -22,19 +17,19 @@ const Header = () => {
       <div className="flex justify-between items-center w-4/12">
         <ul className="flex justify-between items-center w-full">
           <li className="mx-2 font-medium text-center text-md  cursor-pointer">
-            <Link to={Home}>HOME</Link>
+            <Link to={"/"}>HOME</Link>
           </li>
           <li className="mx-2 font-medium text-center text-md cursor-pointer">
-            <Link to={Categories}>CATEGORIES</Link>
+            <Link to={"/categories"}>CATEGORIES</Link>
           </li>
           <li className="mx-2 font-medium text-center text-md cursor-pointer">
-            <Link to={Pages}>PAGES</Link>
+            <Link to={"/pages"}>PAGES</Link>
           </li>
           <li className="mx-2 font-medium text-center text-md cursor-pointer">
-            <Link to={Brand}>BRAND</Link>
+            <Link to={"/brand"}>BRAND</Link>
           </li>
           <li className="mx-2 font-medium text-center text-md cursor-pointer">
-            <Link to={Blog}>BLOG</Link>
+            <Link to={"/blog"}>BLOG</Link>
           </li>
         </ul>
       </div>
@@ -54,6 +49,7 @@ const Header = () => {
           </li>
         </ul>
       </div>
+      
     </div>
   );
 };

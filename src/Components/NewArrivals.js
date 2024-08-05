@@ -21,37 +21,37 @@ const NewArrivals = () => {
           View More
         </h2>
       </div>
-      <div className=" bg-pink-300 flex justify-evenly">
-        <div className="border bg-red-500 p-4">
+      <div className=" bg-pink-300 flex justify-evenly p-4 my-4">
+        <div className="border bg-red-500 p-4 w-[300px]">
           <img
-            className="bg-lime-400 h-[300px] w-[275px] object-contain"
+            className="bg-lime-400 h-[300px] w-[275px] object-fill"
             src={ProductData[1]?.image}
             alt="productImg"
           />
           <p className="my-4 p-2 bg-cyan-400">{ProductData[1]?.title}</p>
           <p className="my-4 p-2 bg-cyan-400">{ProductData[1]?.price} $</p>
         </div>
-        <div className="border bg-red-500 p-4">
+        <div className="border bg-red-500 p-4 w-[300px]">
           <img
-            className=" bg-lime-400 h-[300px] w-[275px] object-contain"
+            className=" bg-lime-400 h-[300px] w-[275px] object-fill"
             src={ProductData[1]?.image}
             alt="productImg"
           />
           <p className="my-4 p-2 bg-cyan-400">{ProductData[1]?.title}</p>
           <p className="my-4 p-2 bg-cyan-400">{ProductData[1]?.price} $</p>
         </div>
-        <div className="border bg-red-500 p-4">
+        <div className="border bg-red-500 p-4 w-[300px]">
           <img
-            className=" bg-lime-400 h-[300px] w-[275px] object-contain"
+            className=" bg-lime-400 h-[300px] w-[275px] object-fill"
             src={ProductData[2]?.image}
             alt="productImg"
           />
           <p className="my-4 p-2 bg-cyan-400">{ProductData[2]?.title}</p>
           <p className="my-4 p-2 bg-cyan-400">{ProductData[2]?.price} $</p>
         </div>
-        <div className="border bg-red-500 p-4">
+        <div className="border bg-red-500 p-4 w-[300px]">
           <img
-            className=" bg-lime-400 h-[300px] w-[275px] object-contain"
+            className=" bg-lime-400 h-[300px] w-[275px] object-fill"
             src={ProductData[3]?.image}
             alt="productImg"
           />

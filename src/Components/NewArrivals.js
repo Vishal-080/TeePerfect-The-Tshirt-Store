@@ -7,7 +7,7 @@ const NewArrivals = () => {
         <h1 className="font-bold text-lg">New Arrivals</h1>
         <h2 className="font-bold text-md cursor-pointer text-[#3ba9e0] hover:border-b-2 hover:border-[#3ba9e0]">View More</h2>
       </div>
-      <div>
+      <div className="p-4 bg-pink-400">
         <div>
           <img src="" alt="productImg" />
         </div>

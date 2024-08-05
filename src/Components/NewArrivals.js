@@ -14,49 +14,49 @@ const NewArrivals = () => {
   };
 
   return (
-    <div className="w-10/12 mx-auto my-10 p-2">
+    <div className="w-10/12 mx-auto my-10 p-2 text-center">
       <div className="flex justify-between items-center">
         <h1 className="font-bold text-lg">New Arrivals</h1>
         <h2 className="font-bold text-md cursor-pointer text-[#3ba9e0] hover:border-b-2 hover:border-[#3ba9e0]">
           View More
         </h2>
       </div>
-      <div className=" bg-pink-300 flex justify-evenly p-4 my-4">
-        <div className="border bg-red-500 p-4 w-[300px]">
+      <div className="flex justify-evenly p-4 my-4 bg-green-400"> 
+        <div className="p-4 w-[300px] flex justify-between items-center flex-col bg-purple-400 border">
           <img
-            className="bg-lime-400 h-[300px] w-[275px] object-fill"
+            className="bg-lime-400 h-[300px] w-[285px] object-fill"
             src={ProductData[1]?.image}
             alt="productImg"
           />
-          <p className="my-4 p-2 bg-cyan-400">{ProductData[1]?.title}</p>
-          <p className="my-4 p-2 bg-cyan-400">{ProductData[1]?.price} $</p>
+          <p className="my-4 p-2">{ProductData[1]?.title}</p>
+          <p className="my-4 p-2">{ProductData[1]?.price} $</p>
         </div>
-        <div className="border bg-red-500 p-4 w-[300px]">
+        <div className="p-4 w-[300px] flex justify-between items-center flex-col bg-purple-400 border">
           <img
-            className=" bg-lime-400 h-[300px] w-[275px] object-fill"
+            className=" bg-lime-400 h-[300px] w-[285px] object-fill"
             src={ProductData[1]?.image}
             alt="productImg"
           />
-          <p className="my-4 p-2 bg-cyan-400">{ProductData[1]?.title}</p>
-          <p className="my-4 p-2 bg-cyan-400">{ProductData[1]?.price} $</p>
+          <p className="my-4 p-2">{ProductData[1]?.title}</p>
+          <p className="my-4 p-2">{ProductData[1]?.price} $</p>
         </div>
-        <div className="border bg-red-500 p-4 w-[300px]">
+        <div className="p-4 w-[300px] flex justify-between items-center flex-col bg-purple-400 border">
           <img
-            className=" bg-lime-400 h-[300px] w-[275px] object-fill"
+            className=" bg-lime-400 h-[300px] w-[285px] object-fill"
             src={ProductData[2]?.image}
             alt="productImg"
           />
-          <p className="my-4 p-2 bg-cyan-400">{ProductData[2]?.title}</p>
-          <p className="my-4 p-2 bg-cyan-400">{ProductData[2]?.price} $</p>
+          <p className="my-4 p-2">{ProductData[2]?.title}</p>
+          <p className="my-4 p-2">{ProductData[2]?.price} $</p>
         </div>
-        <div className="border bg-red-500 p-4 w-[300px]">
+        <div className="p-4 w-[300px] flex justify-between items-center flex-col bg-purple-400 border">
           <img
-            className=" bg-lime-400 h-[300px] w-[275px] object-fill"
+            className=" bg-lime-400 h-[300px] w-[285px] object-fill"
             src={ProductData[3]?.image}
             alt="productImg"
           />
-          <p className="my-4 p-2 bg-cyan-400">{ProductData[3]?.title}</p>
-          <p className="my-4 p-2 bg-cyan-400">{ProductData[3]?.price} $</p>
+          <p className="my-4 p-2">{ProductData[3]?.title}</p>
+          <p className="my-4 p-2">{ProductData[3]?.price} $</p>
         </div>
       </div>
     </div>

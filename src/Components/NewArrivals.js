@@ -5,20 +5,30 @@ const NewArrivals = () => {
     <div className="w-10/12 mx-auto my-10 p-2">
       <div className="flex justify-between items-center">
         <h1 className="font-bold text-lg">New Arrivals</h1>
-        <h2 className="font-bold text-md cursor-pointer text-[#3ba9e0] hover:border-b-2 hover:border-[#3ba9e0]">View More</h2>
+        <h2 className="font-bold text-md cursor-pointer text-[#3ba9e0] hover:border-b-2 hover:border-[#3ba9e0]">
+          View More
+        </h2>
       </div>
-      <div className="p-4 bg-pink-400">
-        <div>
-          <img src="" alt="productImg" />
+      <div className="p-4 bg-pink-400 flex justify-evenly items-center text-center">
+        <div className="border">
+          <img className="w-[250px] mx-4 bg-lime-400 h-[300px]" src="" alt="productImg" />
+          <p className="my-4">Tshirt Name</p>
+          <p className="my-4">From 250$</p>
         </div>
-        <div>
-          <img src="" alt="productImg" />
+        <div className="border">
+          <img className="w-[250px] mx-4 bg-lime-400 h-[300px]" src="" alt="productImg" />
+          <p className="my-4">Tshirt Name</p>
+          <p className="my-4">From 250$</p>
         </div>
-        <div>
-          <img src="" alt="productImg" />
+        <div className="border">
+          <img className="w-[250px] mx-4 bg-lime-400 h-[300px]" src="" alt="productImg" />
+          <p className="my-4">Tshirt Name</p>
+          <p className="my-4">From 250$</p>
         </div>
-        <div>
-          <img src="" alt="productImg" />
+        <div className="border">
+          <img className="w-[250px] mx-4 bg-lime-400 h-[300px]" src="" alt="productImg" />
+          <p className="my-4">Tshirt Name</p>
+          <p className="my-4">From 250$</p>
         </div>
       </div>
     </div>

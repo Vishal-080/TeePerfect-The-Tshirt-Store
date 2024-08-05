@@ -9,7 +9,7 @@ const NewArrivals = () => {
           View More
         </h2>
       </div>
-      <div className="p-4 bg-pink-400 flex justify-evenly items-center text-center">
+      <div className="p-4 my-8 bg-pink-400 flex justify-evenly items-center text-center">
         <div className="border">
           <img className="w-[250px] mx-4 bg-lime-400 h-[300px]" src="" alt="productImg" />
           <p className="my-4">Tshirt Name</p>

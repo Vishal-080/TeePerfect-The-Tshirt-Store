@@ -2,8 +2,8 @@ import React from "react";
 
 const HeroPage = () => {
   return (
-    <div className="w-full m-auto bg-red-400 ">
-      <div className="z-10 left-64 top-2/4 absolute flex flex-col justify-center items-center">
+    <div className="w-full m-auto bg-red-400">
+      <div className="z-10 left-32 top-2/4 absolute flex flex-col justify-center items-center">
         <h1 className="m-2 font-bold text-5xl text-[#3ba9e0] font-serif text-center">
           SHIRTS AS UNIQUE AS YOU ARE
         </h1>

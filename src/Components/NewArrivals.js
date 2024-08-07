@@ -10,7 +10,7 @@ const NewArrivals = () => {
     const data = await fetch("https://fakestoreapi.com/products")
       .then((data) => data.json())
       .then((data) => setProductData(data));
-    console.log(ProductData, "Hello");
+   // console.log(ProductData, "Hello");
   };
 
   return (

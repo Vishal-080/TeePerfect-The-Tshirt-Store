@@ -6,11 +6,11 @@ const NewArrivals = () => {
   useEffect(() => {
     fetchData();
   }, []);
+
   const fetchData = async () => {
-    const data = await fetch("https://fakestoreapi.com/products")
-      .then((data) => data.json())
-      .then((data) => setProductData(data));
-   // console.log(ProductData, "Hello");
+    const data = await fetch("https://fakestoreapi.com/products");
+    const JsonData = await data.json();
+    console.log(JsonData, "Hello");
   };
 
   return (

@@ -25,30 +25,30 @@ const NewArrivals = () => {
       <div className="flex justify-evenly p-4 my-4"> 
         <div className="p-4 w-[300px] flex justify-between items-center flex-col">
           <img
-            className="bg-lime-400 h-[300px] w-[285px] object-fill"
+            className="h-[300px] w-[285px] object-fill"
             src={ProductData[1]?.image}
             alt="productImg"
           />
-          <p className="my-4 p-2">{ProductData[1]?.title}</p>
-          <p className="my-4 p-2">{ProductData[1]?.price} $</p>
+          <p className="my-4 p-1">{ProductData[1]?.title}</p>
+          <p className="my-2 p-1 font-medium">{ProductData[1]?.price} $</p>
         </div>
         <div className="p-4 w-[300px] flex justify-between items-center flex-col">
           <img
-            className=" bg-lime-400 h-[300px] w-[285px] object-fill"
+            className="h-[300px] w-[285px] object-fill"
             src={ProductData[1]?.image}
             alt="productImg"
           />
-          <p className="my-4 p-2">{ProductData[1]?.title}</p>
-          <p className="my-4 p-2">{ProductData[1]?.price} $</p>
+          <p className="my-4 p-1">{ProductData[1]?.title}</p>
+          <p className="my-2 p-1 font-medium">{ProductData[1]?.price} $</p>
         </div>
         <div className="p-4 w-[300px] flex justify-between items-center flex-col">
           <img
-            className=" bg-lime-400 h-[300px] w-[285px] object-fill"
+            className="h-[300px] w-[285px] object-fill"
             src={ProductData[2]?.image}
             alt="productImg"
           />
-          <p className="my-4 p-2">{ProductData[2]?.title}</p>
-          <p className="my-4 p-2">{ProductData[2]?.price} $</p>
+          <p className="my-4 p-1">{ProductData[2]?.title}</p>
+          <p className="my-2 p-1 font-medium">{ProductData[2]?.price} $</p>
         </div>
         <div className="p-4 w-[300px] flex justify-between items-center flex-col">
           <img
@@ -56,8 +56,8 @@ const NewArrivals = () => {
             src={ProductData[3]?.image}
             alt="productImg"
           />
-          <p className="my-4 p-2">{ProductData[3]?.title}</p>
-          <p className="my-4 p-2">{ProductData[3]?.price} $</p>
+          <p className="my-4 p-1">{ProductData[3]?.title}</p>
+          <p className="my-2 p-1 font-medium">{ProductData[3]?.price} $</p>
         </div>
       </div>
     </div>

@@ -22,7 +22,7 @@ const NewArrivals = () => {
           View More
         </h2>
       </div>
-      <div className="flex justify-evenly p-4 my-4 bg-green-400"> 
+      <div className="flex justify-evenly p-4 my-4"> 
         <div className="p-4 w-[300px] flex justify-between items-center flex-col bg-purple-400 border">
           <img
             className="bg-lime-400 h-[300px] w-[285px] object-fill"

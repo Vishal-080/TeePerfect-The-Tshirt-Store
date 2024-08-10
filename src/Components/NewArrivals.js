@@ -23,7 +23,7 @@ const NewArrivals = () => {
         </h2>
       </div>
       <div className="flex justify-evenly p-4 my-4"> 
-        <div className="p-4 w-[300px] flex justify-between items-center flex-col bg-purple-400 border">
+        <div className="p-4 w-[300px] flex justify-between items-center flex-col">
           <img
             className="bg-lime-400 h-[300px] w-[285px] object-fill"
             src={ProductData[1]?.image}
@@ -32,7 +32,7 @@ const NewArrivals = () => {
           <p className="my-4 p-2">{ProductData[1]?.title}</p>
           <p className="my-4 p-2">{ProductData[1]?.price} $</p>
         </div>
-        <div className="p-4 w-[300px] flex justify-between items-center flex-col bg-purple-400 border">
+        <div className="p-4 w-[300px] flex justify-between items-center flex-col">
           <img
             className=" bg-lime-400 h-[300px] w-[285px] object-fill"
             src={ProductData[1]?.image}
@@ -41,7 +41,7 @@ const NewArrivals = () => {
           <p className="my-4 p-2">{ProductData[1]?.title}</p>
           <p className="my-4 p-2">{ProductData[1]?.price} $</p>
         </div>
-        <div className="p-4 w-[300px] flex justify-between items-center flex-col bg-purple-400 border">
+        <div className="p-4 w-[300px] flex justify-between items-center flex-col">
           <img
             className=" bg-lime-400 h-[300px] w-[285px] object-fill"
             src={ProductData[2]?.image}
@@ -50,9 +50,9 @@ const NewArrivals = () => {
           <p className="my-4 p-2">{ProductData[2]?.title}</p>
           <p className="my-4 p-2">{ProductData[2]?.price} $</p>
         </div>
-        <div className="p-4 w-[300px] flex justify-between items-center flex-col bg-purple-400 border">
+        <div className="p-4 w-[300px] flex justify-between items-center flex-col">
           <img
-            className=" bg-lime-400 h-[300px] w-[285px] object-fill"
+            className="h-[300px] w-[285px] object-fill"
             src={ProductData[3]?.image}
             alt="productImg"
           />

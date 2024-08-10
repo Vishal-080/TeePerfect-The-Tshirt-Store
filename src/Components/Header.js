@@ -16,19 +16,19 @@ const Header = () => {
       </div>
       <div className="flex justify-between items-center w-4/12">
         <ul className="flex justify-between items-center w-full">
-          <li className="mx-2 font-medium text-center text-md  cursor-pointer">
+          <li className="mx-2 font-medium text-center text-sm  cursor-pointer">
             <Link to={"/"}>HOME</Link>
           </li>
-          <li className="mx-2 font-medium text-center text-md cursor-pointer">
+          <li className="mx-2 font-medium text-center text-sm cursor-pointer">
             <Link to={"/categories"}>CATEGORIES</Link>
           </li>
-          <li className="mx-2 font-medium text-center text-md cursor-pointer">
+          <li className="mx-2 font-medium text-center text-sm cursor-pointer">
             <Link to={"/pages"}>PAGES</Link>
           </li>
-          <li className="mx-2 font-medium text-center text-md cursor-pointer">
+          <li className="mx-2 font-medium text-center text-sm cursor-pointer">
             <Link to={"/brand"}>BRAND</Link>
           </li>
-          <li className="mx-2 font-medium text-center text-md cursor-pointer">
+          <li className="mx-2 font-medium text-center text-sm cursor-pointer">
             <Link to={"/blog"}>BLOG</Link>
           </li>
         </ul>

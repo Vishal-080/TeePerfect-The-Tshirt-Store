@@ -10,7 +10,8 @@ const NewArrivals = () => {
   const fetchData = async () => {
     const data = await fetch("https://fakestoreapi.com/products");
     const JsonData = await data.json();
-    console.log(JsonData, "Hello");
+    setProductData(JsonData);
+   // console.log(JsonData, "Hello");
   };
 
   return (

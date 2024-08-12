@@ -1,5 +1,3 @@
-import React from "react";
-
 const HeroPage = () => {
   return (
     <div className="w-full m-auto text-center bg-red-400">

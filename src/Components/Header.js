@@ -6,7 +6,7 @@ import {
   AiOutlineHeart,
 } from "react-icons/ai";
 import { BsPersonCircle } from "react-icons/bs";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -49,7 +49,6 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      
     </div>
   );
 };

@@ -1,64 +1,60 @@
-import React from 'react';
-import { createBrowserRouter , RouterProvider, Outlet } from "react-router-dom";
-import Login from './Login';
+import React from "react";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import Login from "./Login";
 import Register from "./Register";
 import Home from "./Home";
-import Blog from './Blog';
-import Categories from './Categories';
-import Brand from './Brand';
+import Blog from "./Blog";
+import Categories from "./Categories";
+import Brand from "./Brand";
 import Pages from "./Pages";
 // import Header from './Header';
-import AppLayout from './AppLayout';
+import AppLayout from "./AppLayout";
 
 const Body = () => {
-
   const AppRouter = createBrowserRouter([
     {
       path: "/",
-      element: <AppLayout/>,
-      children:[
+      element: <AppLayout />,
+      children: [
         {
           path: "/",
-          element: <Home/>
+          element: <Home />,
         },
         {
           path: "/login",
-          element: <Login/>
+          element: <Login />,
         },
         {
           path: "/register",
-          element: <Register/>
+          element: <Register />,
         },
         {
           path: "/blog",
-          element: <Blog/>
+          element: <Blog />,
         },
         {
           path: "/categories",
-          element: <Categories/>
+          element: <Categories />,
         },
         {
           path: "/brand",
-          element: <Brand/>
+          element: <Brand />,
         },
         {
           path: "/pages",
-          element: <Pages/>
-        }
+          element: <Pages />,
+        },
       ],
     },
-   
-  ])
+  ]);
 
   return (
     <div>
-      
       <RouterProvider router={AppRouter}>
-        <AppLayout/>
+        <AppLayout />
       </RouterProvider>
-
     </div>
-  )
-}
+  );
+};
 
 export default Body;

@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Brand = () => {
-  return (
-    <div>Brand page</div>
-  )
-}
+  return <div>Brand page</div>;
+};
 
 export default Brand;

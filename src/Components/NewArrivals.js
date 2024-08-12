@@ -11,7 +11,7 @@ const NewArrivals = () => {
     const data = await fetch("https://fakestoreapi.com/products");
     const JsonData = await data.json();
     setProductData(JsonData);
-   // console.log(JsonData, "Hello");
+    // console.log(JsonData, "Hello");
   };
 
   return (
@@ -22,7 +22,7 @@ const NewArrivals = () => {
           View More
         </h2>
       </div>
-      <div className="flex justify-evenly p-4 my-4"> 
+      <div className="flex justify-evenly p-4 my-4">
         <div className="p-4 w-[300px] flex justify-between items-center flex-col">
           <img
             className="h-[300px] w-[285px] object-fill"

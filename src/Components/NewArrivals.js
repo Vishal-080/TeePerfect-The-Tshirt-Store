@@ -11,7 +11,6 @@ const NewArrivals = () => {
     const data = await fetch("https://fakestoreapi.com/products");
     const JsonData = await data.json();
     setProductData(JsonData);
-    // console.log(JsonData, "Hello");
   };
 
   return (

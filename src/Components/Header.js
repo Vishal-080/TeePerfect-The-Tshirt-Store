@@ -21,6 +21,11 @@ const Header = () => {
           </li>
           <li className="mx-2 font-medium text-center text-xs cursor-pointer">
             <Link to={"/categories"}>CATEGORIES</Link>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
           </li>
           <li className="mx-2 font-medium text-center text-xs cursor-pointer">
             <Link to={"/pages"}>PAGES</Link>

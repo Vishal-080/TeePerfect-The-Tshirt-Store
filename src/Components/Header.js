@@ -19,9 +19,9 @@ const Header = () => {
           <li className="mx-2 font-medium text-center text-xs  cursor-pointer">
             <Link to={"/"}>HOME</Link>
           </li>
-          <li className="mx-2 font-medium text-center text-xs cursor-pointer">
+          <li className="mx-2 font-medium text-center text-xs cursor-pointer inline-block hover:bg-red-400 hover:block">
             <Link to={"/categories"}>CATEGORIES</Link>
-            <div class="dropdown-content">
+            <div class="hover:flex absolute bg-[#f9f9f9] min-w-40 py-12 px-14 hover:bg-blue-500 h-44 w-44 my-4 z-1">
               <a href="#">Link 1</a>
               <a href="#">Link 2</a>
               <a href="#">Link 3</a>

@@ -21,10 +21,10 @@ const Header = () => {
           </li>
           <li className="mx-2 font-medium text-center text-xs cursor-pointer inline-block hover:bg-red-400 hover:block">
             <Link to={"/categories"}>CATEGORIES</Link>
-            <div class="hover:flex absolute bg-[#f9f9f9] min-w-40 py-12 px-14 hover:bg-blue-500 h-44 w-44 my-4 z-1">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+            <div class="hidden hover:flex flex-row justify-evenly items-center absolute bg-[#f9f9f9] min-w-54 py-12 px-14 hover:bg-blue-500 my-4 z-1">
+              <a className="border border-red-300 m-4 p-4" href="#">Link 1</a>
+              <a className="border border-red-300 m-4 p-4" href="#">Link 2</a>
+              <a className="border border-red-300 m-4 p-4" href="#">Link 3</a>
             </div>
           </li>
           <li className="mx-2 font-medium text-center text-xs cursor-pointer">

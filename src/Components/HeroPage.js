@@ -5,10 +5,10 @@ const HeroPage = () => {
         <h1 className="m-2 font-bold text-4xl text-[#3ba9e0] font-serif text-center">
           SHIRTS AS UNIQUE AS YOU ARE
         </h1>
-        <h4 className="m-2 text-center font-normal text-xl">
+        <h4 className="m-2 text-center font-normal text-lg">
           Welcome To The Largest Online T-shirt Platform In The World
         </h4>
-        <button className="m-2 text-center border py-2 px-4 rounded-md bg-white text-[#3ba9e0] font-semibold text-lg hover:text-white hover:bg-[#3ba9e0]">
+        <button className="m-2 text-center border py-2 px-4 rounded-md bg-white text-[#3ba9e0] font-semibold text-sm hover:text-white hover:bg-[#3ba9e0]">
           Shop Now
         </button>
       </div>

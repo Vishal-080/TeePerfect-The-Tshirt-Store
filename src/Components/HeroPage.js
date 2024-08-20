@@ -2,7 +2,7 @@ const HeroPage = () => {
   return (
     <div className="w-full m-auto text-center bg-red-400">
       <div className="z-10 left-56 top-2/4 absolute flex flex-col justify-center items-center text-center">
-        <h1 className="m-2 font-bold text-4xl text-[#3ba9e0] font-serif text-center">
+        <h1 className="m-2 font-bold text-3xl text-[#3ba9e0] font-serif text-center">
           SHIRTS AS UNIQUE AS YOU ARE
         </h1>
         <h4 className="m-2 text-center font-normal text-lg">
